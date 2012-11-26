@@ -1,15 +1,31 @@
 /*
- * pid_ctrl.c
- *
- *  Created on: Nov 22, 2012
- *      Author: somewebguy
- *      The following is a pretty basic C PID controller, but it has
- *      worked very well with good stability when tuned correctly.
- *      The code doesn't have a lot of features and uses a independent
- *      gains equation, but you can dress it up or down as much as you
- *      want.  I just pasted it from another application, adapt as needed.
- *
- */
+*Copyright (c) 2012, Nik Martin
+* All rights reserved.
+*
+* Redistribution and use in source and binary forms, with or without modification, 
+* are permitted provided that the following conditions are met:
+*
+*    * Redistributions of source code must retain the above copyright notice, this 
+*      list of conditions and the following disclaimer.
+*    * Redistributions in binary form must reproduce the above copyright notice, 
+*      this list of conditions and the following disclaimer in the documentation 
+*      and/or other materials provided with the distribution.
+*    * Neither the name of the <ORGANIZATION> nor the names of its contributors 
+*      may be used to endorse or promote products derived from this software 
+*      without specific prior written permission.
+*
+* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+* THIS ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+* THIS WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+* THIS DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE 
+* THIS FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+* THIS DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+* THIS SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+* THIS CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+* THIS OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE 
+* THIS USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
 
 #include <stdlib.h>
 #include "pid_ctrl.h"
